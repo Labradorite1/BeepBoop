@@ -814,7 +814,7 @@ namespace BeepBoopBot.Modules
                     return;
                 }
                 if (privacy == "1")
-                {
+                { //Add displayName to this
                     account.destinyMembershipId = destinyMembershipId;
                     account.destinyMembershipType = membershipType;
                     account.character1 = characters[0];
